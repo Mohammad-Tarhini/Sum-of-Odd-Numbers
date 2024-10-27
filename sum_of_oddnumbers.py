@@ -2,7 +2,10 @@
 x=int(input("please enter integer number"))
 i=1
 sum=0
-while i<=x:
+if x==0:
+    sum==0
+elif x>0:
+    while i<=x:
     sum+=i
     i+=2
 print(sum)
